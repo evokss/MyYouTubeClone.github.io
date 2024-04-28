@@ -68,6 +68,20 @@ p {
   }
 }
 
+@media (min-width: 1200px) {
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .video-author,
+  .video-stats {
+    font-size: 14px;
+  }
+}
+
 .video-time {
   position: absolute;
   background-color: black;
