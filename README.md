@@ -1,6 +1,6 @@
 # Project Summary
 
-## My YouTube Clone ##
+## Application: My YouTube Clone ##
 
 This project is a HTML and CSS implementation of a YouTube homepage clone. 
 
