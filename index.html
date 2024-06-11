@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>YouTube.com Clone</title>
+    <title>YouTube Clone</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/videos.css" />
@@ -96,545 +97,549 @@
     </nav>
 
     <main>
-      <section class="video-grid">
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=Ue4mNQbj9V4&ab_channel=FlyingDutchman" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-1.webp"
-              alt="thumbnail-1" />
-            </a>
-              <div class="video-time">7:03</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@DeltaSniperZRR" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-1.jpg"
-                alt="channel-1" />
-              </a>
-              
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-1.jpg"
-                alt="channel-1" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Flying Dutchman</p>
-                  <p class="video-author-stats">136K subscribers</p>
-                </div>
-              </div>
-            </div>
-  
-            <div class="video-description">
+      <section class="video-grid container-fluid">
+        <div class="row gx-4 gy-3">
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=Ue4mNQbj9V4&ab_channel=FlyingDutchman" target="_blank">
-                <p class="video-title">
-                  The Doors - Riders On The Storm 1971 | Unofficial Music Video
-                </p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-1.webp"
+                alt="thumbnail-1" />
               </a>
-              <p class="video-author">Flying Dutchman</p>
-              <p class="video-stats">1.7M views &#8901; 2 years ago</p>
+                <div class="video-time">7:03</div>
             </div>
-          </div>
-        </div>
-  
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=EFkyxzJtiv4&ab_channel=Aperture" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-2.webp"
-              alt="thumbnail-2" />
-            </a>
-              <div class="video-time">12:51</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@ApertureThinking" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-2.jpg"
-                alt="channel-2" />
-              </a>
-  
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-2.jpg"
-                alt="channel-2" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Aperture</p>
-                  <p class="video-author-stats">2.24M subscribers</p>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@DeltaSniperZRR" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-1.jpg"
+                  alt="channel-1" />
+                </a>
+                
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-1.jpg"
+                  alt="channel-1" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Flying Dutchman</p>
+                    <p class="video-author-stats">136K subscribers</p>
+                  </div>
                 </div>
               </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=Ue4mNQbj9V4&ab_channel=FlyingDutchman" target="_blank">
+                  <p class="video-title">
+                    The Doors - Riders On The Storm 1971 | Unofficial Music Video
+                  </p>
+                </a>
+                <p class="video-author">Flying Dutchman</p>
+                <p class="video-stats">1.7M views &#8901; 2 years ago</p>
+              </div>
             </div>
-  
-            <div class="video-description">
+          </div>
+    
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=EFkyxzJtiv4&ab_channel=Aperture" target="_blank">
-                <p class="video-title">Stoicism: Become Undefeatable</p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-2.webp"
+                alt="thumbnail-2" />
               </a>
-              <p class="video-author">Aperture</p>
-              <p class="video-stats">10M views &#8901; 2 years ago</p>
+                <div class="video-time">12:51</div>
             </div>
-          </div>
-        </div>
-  
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=-IlG32Pb43g&ab_channel=Einzelg%C3%A4nger" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-3.webp"
-              alt="thumbnail-3" />
-            </a>
-              <div class="video-time">11:44</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@Einzelganger" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-3.jpg"
-                alt="channel-3" />
-              </a>
-  
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-3.jpg"
-                alt="channel-3" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Einzelgänger</p>
-                  <p class="video-author-stats">2.2M subscribers</p>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@ApertureThinking" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-2.jpg"
+                  alt="channel-2" />
+                </a>
+    
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-2.jpg"
+                  alt="channel-2" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Aperture</p>
+                    <p class="video-author-stats">2.24M subscribers</p>
+                  </div>
                 </div>
               </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=EFkyxzJtiv4&ab_channel=Aperture" target="_blank">
+                  <p class="video-title">Stoicism: Become Undefeatable</p>
+                </a>
+                <p class="video-author">Aperture</p>
+                <p class="video-stats">10M views &#8901; 2 years ago</p>
+              </div>
             </div>
-  
-            <div class="video-description">
+          </div>
+    
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=-IlG32Pb43g&ab_channel=Einzelg%C3%A4nger" target="_blank">
-                <p class="video-title">
-                  The Harder You Try, The Worse It Gets | Law of Reversed Effort
-                </p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-3.webp"
+                alt="thumbnail-3" />
               </a>
-              <p class="video-author">Einzelgänger</p>
-              <p class="video-stats">4M views &#8901; 1 year ago</p>
+                <div class="video-time">11:44</div>
             </div>
-          </div>
-        </div>
-  
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=DxL2HoqLbyA&t=1s&ab_channel=Veritasium" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-4.webp"
-              alt="thumbnail-4" />
-            </a>
-              <div class="video-time">27:14</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@veritasium" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-4.jpg"
-                alt="channel-4" />
-              </a>
-  
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-4.jpg"
-                alt="channel-4" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Veritasium</p>
-                  <p class="video-author-stats">15.4M subscribers</p>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@Einzelganger" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-3.jpg"
+                  alt="channel-3" />
+                </a>
+    
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-3.jpg"
+                  alt="channel-3" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Einzelgänger</p>
+                    <p class="video-author-stats">2.2M subscribers</p>
+                  </div>
                 </div>
               </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=-IlG32Pb43g&ab_channel=Einzelg%C3%A4nger" target="_blank">
+                  <p class="video-title">
+                    The Harder You Try, The Worse It Gets | Law of Reversed Effort
+                  </p>
+                </a>
+                <p class="video-author">Einzelgänger</p>
+                <p class="video-stats">4M views &#8901; 1 year ago</p>
+              </div>
             </div>
-  
-            <div class="video-description">
+          </div>
+    
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=DxL2HoqLbyA&t=1s&ab_channel=Veritasium" target="_blank">
-                <p class="video-title">
-                  The Most Misunderstood Concept in Physics
-                </p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-4.webp"
+                alt="thumbnail-4" />
               </a>
-              <p class="video-author">Veritasium</p>
-              <p class="video-stats">12M views views &#8901; 9 months ago</p>
+                <div class="video-time">27:14</div>
             </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=wwSzpaTHyS8&t=2s&ab_channel=Kurzgesagt%E2%80%93InaNutshell" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-5.webp"
-              alt="thumbnail-5" />
-            </a>
-              <div class="video-time">12:34</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@kurzgesagt" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-5.jpg"
-                alt="channel-5" />
-              </a>
-              
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-5.jpg"
-                alt="channel-5" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Kurzgesagt – In a Nutshell</p>
-                  <p class="video-author-stats">22.2M subscribers</p>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@veritasium" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-4.jpg"
+                  alt="channel-4" />
+                </a>
+    
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-4.jpg"
+                  alt="channel-4" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Veritasium</p>
+                    <p class="video-author-stats">15.4M subscribers</p>
+                  </div>
                 </div>
               </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=DxL2HoqLbyA&t=1s&ab_channel=Veritasium" target="_blank">
+                  <p class="video-title">
+                    The Most Misunderstood Concept in Physics
+                  </p>
+                </a>
+                <p class="video-author">Veritasium</p>
+                <p class="video-stats">12M views views &#8901; 9 months ago</p>
+              </div>
             </div>
-  
-            <div class="video-description">
+          </div>
+
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=wwSzpaTHyS8&t=2s&ab_channel=Kurzgesagt%E2%80%93InaNutshell" target="_blank">
-                <p class="video-title">
-                  Did The Future Already Happen? - The Paradox of Time
-                </p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-5.webp"
+                alt="thumbnail-5" />
               </a>
-              <p class="video-author">Kurzgesagt - In a Nutshell</p>
-              <p class="video-stats">7.6M views &#8901; 2 months ago</p>
+                <div class="video-time">12:34</div>
             </div>
-          </div>
-        </div>
-  
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=l9DCxsz8iT8&t=1s&ab_channel=LofiAilurophile" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-6.webp"
-              alt="thumbnail-6" />
-            </a>
-              <div class="video-time">11:54:58</div>
-          </div>
-          
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@LofiAilurophile-lq4oi" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-6.jpg"
-                alt="channel-6" />
-              </a>
-  
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-6.jpg"
-                alt="channel-6" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Lofi Ailurophile</p>
-                  <p class="video-author-stats">22K subscribers</p>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@kurzgesagt" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-5.jpg"
+                  alt="channel-5" />
+                </a>
+                
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-5.jpg"
+                  alt="channel-5" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Kurzgesagt – In a Nutshell</p>
+                    <p class="video-author-stats">22.2M subscribers</p>
+                  </div>
                 </div>
               </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=wwSzpaTHyS8&t=2s&ab_channel=Kurzgesagt%E2%80%93InaNutshell" target="_blank">
+                  <p class="video-title">
+                    Did The Future Already Happen? - The Paradox of Time
+                  </p>
+                </a>
+                <p class="video-author">Kurzgesagt - In a Nutshell</p>
+                <p class="video-stats">7.6M views &#8901; 2 months ago</p>
+              </div>
             </div>
-  
-            <div class="video-description">
+          </div>
+    
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=l9DCxsz8iT8&t=1s&ab_channel=LofiAilurophile" target="_blank">
-                <p class="video-title">
-                  Work & cat 💻 Listen to it to escape from a hard day 🐾 Relax/study/work [ Lofi Hip Hop ]
-                </p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-6.webp"
+                alt="thumbnail-6" />
               </a>
-              <p class="video-author">Lofi Ailurophile</p>
-              <p class="video-stats">184K views &#8901; Streamed 5 months ago</p>
+                <div class="video-time">11:54:58</div>
             </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=x1KDBuqviqg&ab_channel=Nerdstalgic" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-7.webp"
-              alt="thumbnail-7" />
-            </a>
-              <div class="video-time">9:19</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@Nerdstalgic" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-7.jpg"
-                alt="channel-7" />
-              </a>
-              
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-7.jpg"
-                alt="channel-7" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Nerdstalgic</p>
-                  <p class="video-author-stats">1.39M subscribers</p>
+            
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@LofiAilurophile-lq4oi" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-6.jpg"
+                  alt="channel-6" />
+                </a>
+    
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-6.jpg"
+                  alt="channel-6" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Lofi Ailurophile</p>
+                    <p class="video-author-stats">22K subscribers</p>
+                  </div>
                 </div>
               </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=l9DCxsz8iT8&t=1s&ab_channel=LofiAilurophile" target="_blank">
+                  <p class="video-title">
+                    Work & cat 💻 Listen to it to escape from a hard day 🐾 Relax/study/work [ Lofi Hip Hop ]
+                  </p>
+                </a>
+                <p class="video-author">Lofi Ailurophile</p>
+                <p class="video-stats">184K views &#8901; Streamed 5 months ago</p>
+              </div>
             </div>
-  
-            <div class="video-description">
+          </div>
+
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=x1KDBuqviqg&ab_channel=Nerdstalgic" target="_blank">
-                <p class="video-title">
-                  How Breaking Bad Pulled Off An Impossibly Perfect Finale
-                </p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-7.webp"
+                alt="thumbnail-7" />
               </a>
-              <p class="video-author">Nerdstalgic</p>
-              <p class="video-stats">1.8M views &#8901; 1 year ago</p>
+                <div class="video-time">9:19</div>
             </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=C8YtdC8mxTU&ab_channel=BranchEducation" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-8.webp"
-              alt="thumbnail-8" />
-            </a>
-              <div class="video-time">21:00</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@BranchEducation" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-8.jpg"
-                alt="channel-8" />
-              </a>
-              
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-8.jpg"
-                alt="channel-8" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Branch Education</p>
-                  <p class="video-author-stats">1.67M subscribers</p>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@Nerdstalgic" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-7.jpg"
+                  alt="channel-7" />
+                </a>
+                
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-7.jpg"
+                  alt="channel-7" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Nerdstalgic</p>
+                    <p class="video-author-stats">1.39M subscribers</p>
+                  </div>
                 </div>
               </div>
-            </div>
-  
-            <div class="video-description">
-              <a href="https://www.youtube.com/watch?v=x1KDBuqviqg&ab_channel=Nerdstalgic" target="_blank">
-                <p class="video-title">
-                  How do Video Game Graphics Work?
-                </p>
-              </a>
-              <p class="video-author">Branch Education</p>
-              <p class="video-stats">2.8M views &#8901; 4 months ago</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=TyUA1OmXMXA&ab_channel=TechAltar" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-9.webp"
-              alt="thumbnail-9" />
-            </a>
-              <div class="video-time">18:31</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@TechAltar" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-9.jpg"
-                alt="channel-9" />
-              </a>
-              
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-9.jpg"
-                alt="channel-9" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">TechAltar</p>
-                  <p class="video-author-stats">712K subscribers</p>
-                </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=x1KDBuqviqg&ab_channel=Nerdstalgic" target="_blank">
+                  <p class="video-title">
+                    How Breaking Bad Pulled Off An Impossibly Perfect Finale
+                  </p>
+                </a>
+                <p class="video-author">Nerdstalgic</p>
+                <p class="video-stats">1.8M views &#8901; 1 year ago</p>
               </div>
             </div>
-  
-            <div class="video-description">
+          </div>
+
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=C8YtdC8mxTU&ab_channel=BranchEducation" target="_blank">
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-8.webp"
+                alt="thumbnail-8" />
+              </a>
+                <div class="video-time">21:00</div>
+            </div>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@BranchEducation" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-8.jpg"
+                  alt="channel-8" />
+                </a>
+                
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-8.jpg"
+                  alt="channel-8" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Branch Education</p>
+                    <p class="video-author-stats">1.67M subscribers</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=x1KDBuqviqg&ab_channel=Nerdstalgic" target="_blank">
+                  <p class="video-title">
+                    How do Video Game Graphics Work?
+                  </p>
+                </a>
+                <p class="video-author">Branch Education</p>
+                <p class="video-stats">2.8M views &#8901; 4 months ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=TyUA1OmXMXA&ab_channel=TechAltar" target="_blank">
-                <p class="video-title">
-                  The billion dollar race for the perfect display
-                </p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-9.webp"
+                alt="thumbnail-9" />
               </a>
-              <p class="video-author">TechAltar</p>
-              <p class="video-stats">2.1M views views &#8901; 4 months ago</p>
+                <div class="video-time">18:31</div>
             </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=BKm45Az02YE&ab_channel=RealEngineering" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-10.webp"
-              alt="thumbnail-10" />
-            </a>
-              <div class="video-time">17:48</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@RealEngineering" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-10.jpg"
-                alt="channel-10" />
-              </a>
-              
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-10.jpg"
-                alt="channel-10" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Real Engineering</p>
-                  <p class="video-author-stats">4.36M subscribers</p>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@TechAltar" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-9.jpg"
+                  alt="channel-9" />
+                </a>
+                
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-9.jpg"
+                  alt="channel-9" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">TechAltar</p>
+                    <p class="video-author-stats">712K subscribers</p>
+                  </div>
                 </div>
               </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=TyUA1OmXMXA&ab_channel=TechAltar" target="_blank">
+                  <p class="video-title">
+                    The billion dollar race for the perfect display
+                  </p>
+                </a>
+                <p class="video-author">TechAltar</p>
+                <p class="video-stats">2.1M views views &#8901; 4 months ago</p>
+              </div>
             </div>
-  
-            <div class="video-description">
+          </div>
+
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=BKm45Az02YE&ab_channel=RealEngineering" target="_blank">
-                <p class="video-title">
-                  The Insane Engineering of the Gameboy
-                </p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-10.webp"
+                alt="thumbnail-10" />
               </a>
-              <p class="video-author">Real Engineering</p>
-              <p class="video-stats">1.2M views &#8901; 3 weeks ago</p>
+                <div class="video-time">17:48</div>
             </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=uBmbI8dzc-M&t=1s&ab_channel=AmbientWorlds" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-11.webp"
-              alt="thumbnail-11" />
-            </a>
-              <div class="video-time">6:00:00</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@AmbientWorlds" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-11.jpg"
-                alt="channel-11" />
-              </a>
-  
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-11.jpg"
-                alt="channel-11" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Ambient Worlds</p>
-                  <p class="video-author-stats">1.04M subscribers</p>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@RealEngineering" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-10.jpg"
+                  alt="channel-10" />
+                </a>
+                
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-10.jpg"
+                  alt="channel-10" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Real Engineering</p>
+                    <p class="video-author-stats">4.36M subscribers</p>
+                  </div>
                 </div>
               </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=BKm45Az02YE&ab_channel=RealEngineering" target="_blank">
+                  <p class="video-title">
+                    The Insane Engineering of the Gameboy
+                  </p>
+                </a>
+                <p class="video-author">Real Engineering</p>
+                <p class="video-stats">1.2M views &#8901; 3 weeks ago</p>
+              </div>
             </div>
-  
-            <div class="video-description">
+          </div>
+
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=uBmbI8dzc-M&t=1s&ab_channel=AmbientWorlds" target="_blank">
-                <p class="video-title">
-                  Lord of the Rings | The Shire, Remastered Music & Ambience - Sunset in Hobbiton
-                </p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-11.webp"
+                alt="thumbnail-11" />
               </a>
-              <p class="video-author">Ambient Worlds</p>
-              <p class="video-stats">4.4M views &#8901; 3 years ago</p>
+                <div class="video-time">6:00:00</div>
             </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <a href="https://www.youtube.com/watch?v=kYX1XEVvvXU&ab_channel=JafetMeza" target="_blank">
-              <img
-              class="thumbnail"
-              src="thumbnails/thumbnail-12.webp"
-              alt="thumbnail-12" />
-            </a>
-              <div class="video-time">4:27</div>
-          </div>
-  
-          <div class="video-info-grid">
-            <div class="profile-picture-container">
-              <a href="https://www.youtube.com/@samuelkimmusic" target="_blank">
-                <img
-                class="profile-picture"
-                src="profile-pictures/channel-12.jpg"
-                alt="channel-12" />
-              </a>
-              
-              <div class="channel-tooltip">
-                <img
-                class="profile-picture-tooltip"
-                src="profile-pictures/channel-12.jpg"
-                alt="channel-12" />
-  
-                <div class="video-author-tooltip">
-                  <p class="video-author-info">Samuel Kim Music</p>
-                  <p class="video-author-stats">2M subscribers</p>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@AmbientWorlds" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-11.jpg"
+                  alt="channel-11" />
+                </a>
+    
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-11.jpg"
+                  alt="channel-11" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Ambient Worlds</p>
+                    <p class="video-author-stats">1.04M subscribers</p>
+                  </div>
                 </div>
               </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=uBmbI8dzc-M&t=1s&ab_channel=AmbientWorlds" target="_blank">
+                  <p class="video-title">
+                    Lord of the Rings | The Shire, Remastered Music & Ambience - Sunset in Hobbiton
+                  </p>
+                </a>
+                <p class="video-author">Ambient Worlds</p>
+                <p class="video-stats">4.4M views &#8901; 3 years ago</p>
+              </div>
             </div>
-  
-            <div class="video-description">
+          </div>
+
+          <div class="video-preview col-lg-3 col-md-4">
+            <div class="thumbnail-row">
               <a href="https://www.youtube.com/watch?v=kYX1XEVvvXU&ab_channel=JafetMeza" target="_blank">
-                <p class="video-title">
-                  Agni Kai - Avatar The Last Airbender | EPIC VERSION
-                </p>
+                <img
+                class="thumbnail"
+                src="thumbnails/thumbnail-12.webp"
+                alt="thumbnail-12" />
               </a>
-              <p class="video-author">Samuel Kim Music</p>
-              <p class="video-stats">6.3M views &#8901; 3 years ago</p>
+                <div class="video-time">4:27</div>
+            </div>
+    
+            <div class="video-info-grid">
+              <div class="profile-picture-container">
+                <a href="https://www.youtube.com/@samuelkimmusic" target="_blank">
+                  <img
+                  class="profile-picture"
+                  src="profile-pictures/channel-12.jpg"
+                  alt="channel-12" />
+                </a>
+                
+                <div class="channel-tooltip">
+                  <img
+                  class="profile-picture-tooltip"
+                  src="profile-pictures/channel-12.jpg"
+                  alt="channel-12" />
+    
+                  <div class="video-author-tooltip">
+                    <p class="video-author-info">Samuel Kim Music</p>
+                    <p class="video-author-stats">2M subscribers</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="video-description">
+                <a href="https://www.youtube.com/watch?v=kYX1XEVvvXU&ab_channel=JafetMeza" target="_blank">
+                  <p class="video-title">
+                    Agni Kai - Avatar The Last Airbender | EPIC VERSION
+                  </p>
+                </a>
+                <p class="video-author">Samuel Kim Music</p>
+                <p class="video-stats">6.3M views &#8901; 3 years ago</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
