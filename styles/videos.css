@@ -44,44 +44,6 @@ p {
   margin-bottom: 4px;
 }
 
-.video-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px 16px;
-}
-
-@media (max-width: 800px) {
-  .video-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 801px) and (max-width: 1099px) {
-  .video-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media (min-width: 1100px) {
-  .video-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-@media (min-width: 1200px) {
-  .video-title {
-    font-size: 16px;
-    line-height: 24px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .video-author,
-  .video-stats {
-    font-size: 14px;
-  }
-}
-
 .video-time {
   position: absolute;
   background-color: black;
