@@ -2,10 +2,6 @@ p {
   margin: 0;
 }
 
-.thumbnail {
-  width: 100%;
-}
-
 .video-info-grid {
   display: grid;
   grid-template-columns: 50px 1fr;
