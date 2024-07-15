@@ -2,9 +2,9 @@
 
 ## Application: My YouTube Clone ##
 
-This project is a HTML and CSS implementation of a **YouTube homepage clone**. <br>
-
 Deploy: [Click Me](https://evokss.github.io/MyYouTubeClone.github.io/)
+
+This project is a HTML and CSS implementation of a **YouTube homepage clone**. <br>
 
 * My YouTube Clone consists of a static webpage that replicates the visual layout and structure of the YouTube homepage. <br>
 * The header encompasses the logo, search bar, navigation buttons, and user profile picture. <br>
