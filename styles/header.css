@@ -25,9 +25,28 @@
     margin: 0 24px 0 24px;
 }
 
-.youtube-icon {
-    height: 20px;
+.retrotube {
+    display: flex;
+    align-items: end;
 }
+
+.retrotube-icon {
+    height: 30px;
+    margin-right: 7px;
+}
+
+.retrotube-text{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+}
+
+.gradient-text {
+    background: linear-gradient(to right, red, darkred);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Hide the original text color */
+  }
 
 .center-section {
     flex: 1;
